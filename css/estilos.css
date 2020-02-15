@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url("../img/quadro.jpg");
+  background-size: 100%;
+  background-position: 0 -300px;
+  transition: ease 1s;
+  height: 300px;
+  position: fixed;
+  top: 0;
+  display: inline-block;
+  width: 100%;
+}
+
+/*li - é onde vc mexe com a orientação e posicionamento dos links
+ do menu*/
+li {
+  display: inline-block;
+  margin: 0 1em;
+}
+
+/*nav - tudo dentro do nav*/
+nav {
+  text-align: center;
+  background-color: rgba(255, 233, 95, 0.8);
+  padding: 0.5em 0;
+}
+a {
+  font-family: "Montserrat";
+  text-decoration: none;
+  transition: ease 0.5s;
+  color: blueviolet;
+  font-size: 2em;
+}
+
+a:hover {
+  padding-left: 5px;
+  color: chartreuse;
+}
+
+main {
+  width: 80vw; /*dentro de onde o objeto está*/
+  /*v/vw/vh - viewport - relacionado ao navegador da página*/
+  height: 100vh;
+  box-shadow: 5px 10px 10px silver;
+  padding: 30px;
+  margin: 300px auto 0 auto;
+}
+
+.texto {
+  text-align: justify;
+  line-height: 1.5em;
+  margin-bottom: 1em;
+  font-family: "Montserrat";
+}
+
+footer {
+  height: 150px;
+  background-color: #ff4d6a;
+}
+
+#rodape {
+  height: 30px;
+  background-color: #ff002b;
+  color: antiquewhite;
+}
